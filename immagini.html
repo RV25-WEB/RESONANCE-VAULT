@@ -9,6 +9,9 @@
 <body>
 
     <header>
+	<div class="banner">
+        <img src="images/banner.jpg" alt="Banner">
+      </div>	
         <h1>Scarica Immagini</h1>
         <nav>
             <ul>
@@ -22,10 +25,14 @@
     <main>
         <section class="download-section">
             <h2>Immagini disponibili</h2>
-            <div class="file-list">
-                <a href="files/immagine1.jpg" download class="download-btn">Scarica Immagine 1</a>
-                <a href="files/immagine2.jpg" download class="download-btn">Scarica Immagine 2</a>
-            </div>
+            <div class="file-item" data-file="files/immagine1.jpg">
+    <img src="files/immagine1.jpg" alt="Immagine">
+    <a href="files/immagine1.jpg" download class="download-btn">Scarica Immagine 1</a>
+</div>
+<div class="file-item" data-file="files/immagine2.jpg">
+    <img src="files/immagine2.jpg" alt="Immagine">
+    <a href="files/immagine2.jpg" download class="download-btn">Scarica Immagine 2</a>
+</div>
         </section>
     </main>
 

@@ -9,22 +9,33 @@
 <body>
 
     <header>
-        <h1>Scarica File ZIP</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pdf.html">Documenti PDF</a></li>
-                <li><a href="immagini.html">Immagini</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="banner">
+        <img src="images/banner.jpg" alt="Banner">
+    </div>
+    <h1>Benvenuto nel mio sito</h1>
+    <p>Scarica i tuoi file qui sotto</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pdf.html">Documenti PDF</a></li>
+            <li><a href="zip.html">File ZIP</a></li>
+            <li><a href="immagini.html">Immagini</a></li>
+        </ul>
+    </nav>
+</header>
 
     <main>
         <section class="download-section">
             <h2>File ZIP disponibili</h2>
             <div class="file-list">
-                <a href="files/software1.zip" download class="download-btn">Scarica Software 1</a>
-                <a href="files/software2.zip" download class="download-btn">Scarica Software 2</a>
+                <div class="file-item" data-file="files/software1.zip">
+    <img src="icons/zip.png" alt="ZIP">
+    <a href="files/software1.zip" download class="download-btn">Scarica Software 1</a>
+</div>
+<div class="file-item" data-file="files/software2.zip">
+    <img src="icons/zip.png" alt="ZIP">
+    <a href="files/software2.zip" download class="download-btn">Scarica Software 2</a>
+</div>
             </div>
         </section>
     </main>
